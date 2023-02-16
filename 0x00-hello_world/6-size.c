@@ -1,4 +1,4 @@
-#incude <stdio.h>
+#include <stdio.h>
 /**
  * main - program that prints the size of various types on the computer it is compiled and run on
  * Return: 0
@@ -16,5 +16,5 @@ printf("Size of an int: %zu byte(s)\n",(unsigned long)sizeof(b));
 printf("Size of a long int: %zu byte(s)\n",(unsigned long)sizeof(c));
 printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
 printf("Size of a float: %zu byte(s)\n", (unsigned long)sizeof(f));
-	return (0);
+return (0);
 }
