@@ -19,7 +19,7 @@ for (tho = 0 ; tho < 10 ; tho++)
 	{
 			for (ten = 0 ; ten < 10 ; ten++)
 		{
-			for ( bas = 0 ; bas < 10 ; bas++)
+			for (bas = 0 ; bas < 10 ; bas++)
 			{
 				putchar('0' + tho);
 				putchar('0' + hun);
@@ -31,7 +31,8 @@ for (tho = 0 ; tho < 10 ; tho++)
 					putchar(',');
 					putchar(32);
 				}
-				bas++;	
+	 
+				bas++;
 			}
 		}
 	}
